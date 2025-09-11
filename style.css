@@ -13,6 +13,11 @@
     --fonte1: "Outfit", cursive;
 }
 
+main > h2{
+    font-family: var(--fonte1);
+    text-align: center;
+}
+
 a.externo::after {
     content: '\1F517';
 }
