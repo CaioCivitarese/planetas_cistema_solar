@@ -13,6 +13,11 @@
     --fonte1: "Outfit", cursive;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 main > h2{
     font-family: var(--fonte1);
     text-align: center;
