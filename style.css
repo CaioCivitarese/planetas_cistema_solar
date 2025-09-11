@@ -114,3 +114,43 @@ img.i5 {
     max-width: 650px;
     max-height: 650px;
 }
+section.Planeta{
+    background-color: black;
+    color: white;
+    height: 500px;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+section > p {
+    width: 200px;
+    height: 300px;
+    padding-top: 150px;
+    margin-left: 20px;
+}
+
+section#Mercurio{
+    background-image: url(imagens/1920x1080.jpg);
+    background-position: left center;
+}
+
+section#Venus{
+    background-image: url(imagens/venus-1-e1569284833598.jpg);
+    background-position: right center;
+}
+section#Terra{
+    background-image: url(imagens/planeta-terra-og.jpg);
+    background-position: center center;
+}
+
+section#Marte{
+    background-image: url(imagens/465947.jpg);
+    background-position: center center;
+}
+
+section#Jupiter{
+    background-image: url(imagens/jupiter-y-sus-lunas-7861.jpg);
+    background-position: center center;
+}
