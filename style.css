@@ -103,26 +103,7 @@ section > p > a:hover {
 section{
     text-align: center;
 }
-img.i1{
-    max-width: 100px;
-    max-height: 100px;
-}
-img.i2{
-    max-width: 400px;
-    max-height: 400px;
-}
-img.i3 {
-    max-width: 400px;
-    max-height: 400px;
-}
-img.i4 {
-    max-width: 200px;
-    max-height: 200px;
-}
-img.i5 {
-    max-width: 650px;
-    max-height: 650px;
-}
+
 section.Planeta{
     background-color: black;
     color: white;
@@ -161,5 +142,17 @@ section#Marte{
 
 section#Jupiter{
     background-image: url(imagens/jupiter-y-sus-lunas-7861.jpg);
+    background-position: center center;
+}
+section#Saturno{
+    background-image: url(imagens/o-planeta-saturno-e-visto-nesta-imagem-do-sistema-solar-da-nasa_919582-746.jpg);
+    background-position: center center;
+}
+section#Urano{
+    background-image: url(imagens/uranus.jpg);
+    background-position: center center;
+}
+section#Netuno{
+    background-image: url(imagens/Netuno-planeta.png);
     background-position: center center;
 }
