@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Outfit:wght@100..900&family=Pacifico&family=Passion+One:wght@400;700;900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Outfit:wght@100..900&family=Pacifico&family=Passion+One:wght@400;700;900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
+
 :root {
 
     --cor1: #007FA6;
@@ -11,6 +13,7 @@
     --cor5: #243133;
 
     --fonte1: "Outfit", cursive;
+    --fonte2: "Pontos Zen", cursive;
 }
 
 * {
@@ -36,6 +39,8 @@ a.externo::after {
 header{
     background-image: linear-gradient(to bottom, var(--cor5), var(--cor3));
     text-align: center;
+    font-family: var(--fonte2);
+    font-weight: bold;
 }
 header > h1 {
     padding-top: 30px;
@@ -155,4 +160,16 @@ section#Urano{
 section#Netuno{
     background-image: url(imagens/Netuno-planeta.png);
     background-position: center center;
+}
+section#Sol{
+    background-image: url(imagens/2-sol.jpg);
+    background-position: center center;
+}
+section#Galaxia{
+    background-image: url(imagens/8789685cc48982a7e30fb21ba0e3f224.jpg);
+    background-position: center center;
+}
+section#PrimeiraSerie{
+    background-image: url(imagens/WhatsApp\ Image\ 2025-09-01\ at\ 16.13.44_19e27193.jpg);
+    background-position: top center;
 }
