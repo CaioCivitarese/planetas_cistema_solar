@@ -71,6 +71,7 @@ nav > a {
     transition-duration: .5s;
     padding-left: 3px;
     padding-right: 3px;
+    font-size: 20px;
 }
 nav > a:hover {
     background-color: var(--cor5);
@@ -109,7 +110,7 @@ section{
     text-align: center;
 }
 
-section.Planeta{
+section.Mulheres{
     background-color: black;
     color: white;
     height: 500px;
@@ -126,50 +127,16 @@ section > p {
     margin-left: 20px;
 }
 
-section#Mercurio{
-    background-image: url(imagens/1920x1080.jpg);
-    background-position: center center;
+section#HipátiadeAlexandria{
+    background-image: url(imagens/Quem-foi-Hipatia-de-Alexandria.jpg);
+    background-position: center left;
 }
 
-section#Venus{
-    background-image: url(imagens/venus-1-e1569284833598.jpg);
+section#CarolineHerschel{
+    background-image: url(imagens/Caroline\ Herschel\ 2.png);
     background-position: center center;
 }
-section#Terra{
-    background-image: url(imagens/planeta-terra-og.jpg);
+section#MariaMitchell{
+    background-image: url(imagens/Maria_Mitchell.jpg);
     background-position: center center;
-}
-
-section#Marte{
-    background-image: url(imagens/465947.jpg);
-    background-position: center center;
-}
-
-section#Jupiter{
-    background-image: url(imagens/jupiter-y-sus-lunas-7861.jpg);
-    background-position: center center;
-}
-section#Saturno{
-    background-image: url(imagens/o-planeta-saturno-e-visto-nesta-imagem-do-sistema-solar-da-nasa_919582-746.jpg);
-    background-position: center center;
-}
-section#Urano{
-    background-image: url(imagens/uranus.jpg);
-    background-position: center center;
-}
-section#Netuno{
-    background-image: url(imagens/Netuno-planeta.png);
-    background-position: center center;
-}
-section#Sol{
-    background-image: url(imagens/2-sol.jpg);
-    background-position: center center;
-}
-section#Galaxia{
-    background-image: url(imagens/8789685cc48982a7e30fb21ba0e3f224.jpg);
-    background-position: center center;
-}
-section#PrimeiraSerie{
-    background-image: url(imagens/WhatsApp\ Image\ 2025-09-01\ at\ 16.13.44_19e27193.jpg);
-    background-position: top center;
 }
