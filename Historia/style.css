@@ -26,6 +26,12 @@ body {
     background-color: rgba(0, 0, 0, 0.863);
 }
 
+p{
+    color: rgba(255, 255, 255, 0.808);
+    background-color: rgba(0, 0, 0, 0.539);
+    border-radius: 10px 
+}
+
 main > h2{
     font-family: var(--fonte1);
     text-align: center;
@@ -108,6 +114,7 @@ section > p > a:hover {
 }
 section{
     text-align: center;
+    padding-top: 200px;
 }
 
 section.Mulheres{
@@ -122,9 +129,10 @@ section.Mulheres{
 
 section > p {
     width: 200px;
-    height: 300px;
-    padding-top: 150px;
+    padding: 10px;
+    box-sizing: border-box;
     margin-left: 20px;
+    font-size: 20px;
 }
 
 section#HipátiadeAlexandria{
@@ -138,6 +146,10 @@ section#CarolineHerschel{
 }
 section#MariaMitchell{
     background-image: url(imagens/Maria_Mitchell.jpg);
+    background-position: center center;
+}
+section#PrimeiraSerie{
+    background-image: url(imagens/WhatsApp\ Image\ 2025-09-01\ at\ 16.13.44_19e27193.jpg);
     background-position: center center;
 }
 
