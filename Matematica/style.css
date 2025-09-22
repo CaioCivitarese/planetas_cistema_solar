@@ -26,17 +26,16 @@ body {
     background-color: rgba(0, 0, 0, 0.863);
 }
 
-main > h1{
+main > h2{
     font-family: var(--fonte1);
     text-align: center;
 
 }
-
 p{
-    color: rgba(255, 255, 255, 0.808);
-    background-color: rgba(0, 0, 0, 0.539);
-    border-radius: 10px 
-}
+            color: rgba(255, 255, 255, 0.808);
+            background-color: rgba(0, 0, 0, 0.539);
+            border-radius: 10px;
+        }
 
 a.externo::after {
     content: '\1F517';
@@ -47,7 +46,6 @@ header{
     text-align: center;
     font-family: var(--fonte2);
     font-weight: bold;
-    padding-bottom: 30px;
 }
 header > h1 {
     padding-top: 30px;
@@ -89,7 +87,7 @@ main {
     max-width: 1000px;
     margin: auto;
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.701);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.58);
@@ -114,13 +112,13 @@ section > p > a:hover {
 }
 section{
     text-align: center;
-
+    padding-top: 200px;
 }
 
-section.Esposições{
+section.Planeta{
     background-color: black;
     color: white;
-    height: 600px;
+    height: 500px;
     background-size: cover;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -129,29 +127,74 @@ section.Esposições{
 
 section > p {
     width: 200px;
-    height: 300px;
-    padding-top: 150px;
+    padding: 10px;
+    box-sizing: border-box;
     margin-left: 20px;
+    font-size: 20px;
+}
+section > p > strong{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: var(--fonte1);
 }
 
-section#CafeLiterario{
-    background-image: url("img/Logo\ do\ Café\ Literário.png");
-    background-color: #F5EEDF;
+section#Mercurio{
+    background-image: url(imagens/1920x1080.jpg);
     background-position: center center;
-    background-size: 60%;
-    background-repeat: no-repeat;
 }
-section#Historia{
-    background-image: url("img/Mulheres\ e\ Cosmos_\ Encontro\ Cultural.png");
-    background-color: #F5EEDF;
+
+section#Venus{
+    background-image: url(imagens/venus-1-e1569284833598.jpg);
     background-position: center center;
-    background-size: 60%;
-    background-repeat: no-repeat;
 }
-section#Geogebra{
-    background-image: url(img/WhatsApp\ Image\ 2025-09-22\ at\ 18.01.36.jpeg);
-    background-color: #F7EDD9;
+section#Terra{
+    background-image: url(imagens/planeta-terra-og.jpg);
     background-position: center center;
-    background-size: 60%;
-    background-repeat: no-repeat;
+}
+
+section#Marte{
+    background-image: url(imagens/465947.jpg);
+    background-position: center center;
+}
+
+section#Jupiter{
+    background-image: url(imagens/jupiter-y-sus-lunas-7861.jpg);
+    background-position: center center;
+}
+section#Saturno{
+    background-image: url(imagens/o-planeta-saturno-e-visto-nesta-imagem-do-sistema-solar-da-nasa_919582-746.jpg);
+    background-position: center center;
+}
+section#Urano{
+    background-image: url(imagens/uranus.jpg);
+    background-position: center center;
+}
+section#Netuno{
+    background-image: url(imagens/Netuno-planeta.png);
+    background-position: center center;
+}
+section#Sol{
+    background-image: url(imagens/2-sol.jpg);
+    background-position: center center;
+}
+section#Galaxia{
+    background-image: url(imagens/8789685cc48982a7e30fb21ba0e3f224.jpg);
+    background-position: center center;
+}
+section#PrimeiraSerie{
+    background-image: url(imagens/WhatsApp\ Image\ 2025-09-01\ at\ 16.13.44_19e27193.jpg);
+    background-position: top center;
+}
+
+footer{
+    margin-top: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--cor5);
+    font-family: var(--fonte1);
+    box-shadow:  0px 7px 9px rgba(0, 0, 0, 0.144);
+    border-radius: 10px;
+}
+video{
+ padding-left: 20px;   
 }
