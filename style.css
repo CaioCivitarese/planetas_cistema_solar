@@ -114,12 +114,13 @@ section > p > a:hover {
 }
 section{
     text-align: center;
+
 }
 
 section.Esposições{
     background-color: black;
     color: white;
-    height: 500px;
+    height: 600px;
     background-size: cover;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -137,9 +138,13 @@ section#CafeLiterario{
     background-image: url("img/Logo\ do\ Café\ Literário.png");
     background-color: white;
     background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
 }
 section#Historia{
     background-image: url("img/Mulheres\ e\ Cosmos_\ Encontro\ Cultural.png");
-    background-color: white;
+    background-color: #F5EEDF;
     background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
 }
