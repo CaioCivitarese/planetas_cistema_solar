@@ -124,6 +124,12 @@ section > p {
     height: 300px;
     padding-top: 150px;
     margin-left: 20px;
+    font-size: 20px;
+}
+section > p > strong{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: var(--fonte1);
 }
 
 section#Mercurio{
